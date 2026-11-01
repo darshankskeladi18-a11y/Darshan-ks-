@@ -1,0 +1,412 @@
+{
+  "students": [
+    {
+      "id": "std_darshan_01",
+      "name": "Darshan Keladi",
+      "email": "darshan.keladi@college.edu",
+      "rollNumber": "21CS042",
+      "collegeName": "National Institute of Technology & Engineering",
+      "course": "B.Tech Computer Science & Engineering",
+      "semester": "6th Semester",
+      "targetPercentage": 75,
+      "warningThreshold": 80,
+      "academicYear": "2025-2026",
+      "createdAt": "2026-11-01T16:05:44.250Z"
+    },
+    {
+      "id": "std_priya_02",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@college.edu",
+      "rollNumber": "21EC019",
+      "collegeName": "National Institute of Technology & Engineering",
+      "course": "B.Tech Electronics & Communication",
+      "semester": "6th Semester",
+      "targetPercentage": 75,
+      "warningThreshold": 80,
+      "academicYear": "2025-2026",
+      "createdAt": "2026-11-01T16:05:44.250Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub_dsa",
+      "studentId": "std_darshan_01",
+      "name": "Data Structures & Algorithms",
+      "code": "CS601",
+      "facultyName": "Dr. Ramesh Rao",
+      "credits": 4,
+      "totalClasses": 42,
+      "attendedClasses": 36,
+      "color": "#10b981",
+      "updatedAt": "2026-11-01T16:05:44.250Z",
+      "notes": "Mon, Wed, Fri 09:00 AM. Key focus on Trees & Graphs."
+    },
+    {
+      "id": "sub_os",
+      "studentId": "std_darshan_01",
+      "name": "Operating Systems & Concurrency",
+      "code": "CS602",
+      "facultyName": "Prof. Ananya Sen",
+      "credits": 4,
+      "totalClasses": 38,
+      "attendedClasses": 27,
+      "color": "#ef4444",
+      "updatedAt": "2026-11-01T16:05:44.250Z",
+      "notes": "Strict professor. Requires at least 75% for mid-term exam clearance."
+    },
+    {
+      "id": "sub_dbms",
+      "studentId": "std_darshan_01",
+      "name": "Database Management Systems",
+      "code": "CS603",
+      "facultyName": "Dr. Vikram Seth",
+      "credits": 3,
+      "totalClasses": 36,
+      "attendedClasses": 28,
+      "color": "#f59e0b",
+      "updatedAt": "2026-11-01T16:05:44.250Z",
+      "notes": "Tue, Thu 11:30 AM. Query optimization assignments due soon."
+    },
+    {
+      "id": "sub_cn",
+      "studentId": "std_darshan_01",
+      "name": "Computer Networks & Security",
+      "code": "CS604",
+      "facultyName": "Prof. Meera Nair",
+      "credits": 4,
+      "totalClasses": 35,
+      "attendedClasses": 32,
+      "color": "#06b6d4",
+      "updatedAt": "2026-11-01T16:05:44.250Z",
+      "notes": "Excellent attendance buffer. High credit course."
+    },
+    {
+      "id": "sub_ai",
+      "studentId": "std_darshan_01",
+      "name": "Artificial Intelligence & Machine Learning",
+      "code": "CS605",
+      "facultyName": "Dr. Siddharth Joshi",
+      "credits": 3,
+      "totalClasses": 30,
+      "attendedClasses": 22,
+      "color": "#8b5cf6",
+      "updatedAt": "2026-11-01T16:05:44.250Z",
+      "notes": "Needs catch-up. Missed classes during hackathon."
+    },
+    {
+      "id": "sub_lab",
+      "studentId": "std_darshan_01",
+      "name": "Cloud & Fullstack Development Lab",
+      "code": "CS606L",
+      "facultyName": "Prof. Arjun Reddy",
+      "credits": 2,
+      "totalClasses": 20,
+      "attendedClasses": 18,
+      "color": "#ec4899",
+      "updatedAt": "2026-11-01T16:05:44.250Z",
+      "notes": "Practical lab sessions every Tuesday afternoon."
+    },
+    {
+      "id": "sub_vlsi",
+      "studentId": "std_priya_02",
+      "name": "VLSI Design & Architecture",
+      "code": "EC601",
+      "facultyName": "Dr. K. Swaminathan",
+      "credits": 4,
+      "totalClasses": 34,
+      "attendedClasses": 29,
+      "color": "#3b82f6",
+      "updatedAt": "2026-11-01T16:05:44.250Z"
+    },
+    {
+      "id": "sub_dsp",
+      "studentId": "std_priya_02",
+      "name": "Digital Signal Processing",
+      "code": "EC602",
+      "facultyName": "Prof. Geetha V.",
+      "credits": 4,
+      "totalClasses": 32,
+      "attendedClasses": 23,
+      "color": "#ef4444",
+      "updatedAt": "2026-11-01T16:05:44.250Z"
+    }
+  ],
+  "attendanceRecords": [
+    {
+      "id": "rec_01",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dsa",
+      "timetableEntryId": "tt_mon_1",
+      "date": "2026-10-31",
+      "status": "PRESENT",
+      "timeSlot": "10:00 AM - 11:00 AM",
+      "topic": "Dynamic Programming - Bellman Ford",
+      "remark": "Interactive session",
+      "createdAt": "2026-10-31T10:05:00.000Z"
+    },
+    {
+      "id": "rec_02",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_os",
+      "timetableEntryId": "tt_mon_2",
+      "date": "2026-10-31",
+      "status": "ABSENT",
+      "timeSlot": "11:15 AM - 12:15 PM",
+      "topic": "Virtual Memory & Page Replacement",
+      "remark": "Doctor appointment",
+      "createdAt": "2026-10-31T11:20:00.000Z"
+    },
+    {
+      "id": "rec_03",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dbms",
+      "date": "2026-10-30",
+      "status": "PRESENT",
+      "timeSlot": "02:00 PM - 03:00 PM",
+      "topic": "B+ Tree Indexing implementation",
+      "remark": "Attended on time",
+      "createdAt": "2026-10-30T14:02:00.000Z"
+    },
+    {
+      "id": "rec_04",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_cn",
+      "date": "2026-10-30",
+      "status": "PRESENT",
+      "timeSlot": "03:15 PM - 04:15 PM",
+      "topic": "TCP Congestion Control - Tahoe & Reno",
+      "remark": "Full class present",
+      "createdAt": "2026-10-30T15:18:00.000Z"
+    },
+    {
+      "id": "rec_05",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_ai",
+      "date": "2026-10-29",
+      "status": "ABSENT",
+      "timeSlot": "09:00 AM - 10:00 AM",
+      "topic": "Convolutional Neural Networks",
+      "remark": "College cultural fest prep",
+      "createdAt": "2026-10-29T09:10:00.000Z"
+    },
+    {
+      "id": "rec_06",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_lab",
+      "date": "2026-10-29",
+      "status": "PRESENT",
+      "timeSlot": "02:00 PM - 05:00 PM",
+      "topic": "REST API & Vite Deployment Lab",
+      "remark": "Completed practical assignment",
+      "createdAt": "2026-10-29T14:15:00.000Z"
+    },
+    {
+      "id": "rec_07",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_os",
+      "date": "2026-10-28",
+      "status": "CANCELLED",
+      "timeSlot": "11:15 AM - 12:15 PM",
+      "topic": "Deadlock detection",
+      "remark": "Faculty attended international conference",
+      "createdAt": "2026-10-28T11:00:00.000Z"
+    },
+    {
+      "id": "rec_08",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dsa",
+      "date": "2026-10-27",
+      "status": "PRESENT",
+      "timeSlot": "10:00 AM - 11:00 AM",
+      "topic": "Graph Algorithms - Dijkstra and Prim",
+      "remark": "Good concept clarity",
+      "createdAt": "2026-10-27T10:05:00.000Z"
+    }
+  ],
+  "timetableEntries": [
+    {
+      "id": "tt_mon_1",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dsa",
+      "dayOfWeek": "MONDAY",
+      "startTime": "09:00 AM",
+      "endTime": "10:00 AM",
+      "room": "LH-302",
+      "faculty": "Dr. Ramesh Rao"
+    },
+    {
+      "id": "tt_mon_2",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_os",
+      "dayOfWeek": "MONDAY",
+      "startTime": "10:15 AM",
+      "endTime": "11:15 AM",
+      "room": "LH-302",
+      "faculty": "Prof. Ananya Sen"
+    },
+    {
+      "id": "tt_mon_3",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dbms",
+      "dayOfWeek": "MONDAY",
+      "startTime": "11:30 AM",
+      "endTime": "12:30 PM",
+      "room": "LH-204",
+      "faculty": "Dr. Vikram Seth"
+    },
+    {
+      "id": "tt_mon_4",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_cn",
+      "dayOfWeek": "MONDAY",
+      "startTime": "02:00 PM",
+      "endTime": "03:00 PM",
+      "room": "LH-101",
+      "faculty": "Prof. Meera Nair"
+    },
+    {
+      "id": "tt_tue_1",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_ai",
+      "dayOfWeek": "TUESDAY",
+      "startTime": "09:00 AM",
+      "endTime": "10:00 AM",
+      "room": "LH-302",
+      "faculty": "Dr. Siddharth Joshi"
+    },
+    {
+      "id": "tt_tue_2",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_os",
+      "dayOfWeek": "TUESDAY",
+      "startTime": "10:15 AM",
+      "endTime": "11:15 AM",
+      "room": "LH-302",
+      "faculty": "Prof. Ananya Sen"
+    },
+    {
+      "id": "tt_tue_3",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_lab",
+      "dayOfWeek": "TUESDAY",
+      "startTime": "02:00 PM",
+      "endTime": "05:00 PM",
+      "room": "Cloud Lab 2",
+      "faculty": "Prof. Arjun Reddy"
+    },
+    {
+      "id": "tt_wed_1",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dbms",
+      "dayOfWeek": "WEDNESDAY",
+      "startTime": "09:00 AM",
+      "endTime": "10:00 AM",
+      "room": "LH-204",
+      "faculty": "Dr. Vikram Seth"
+    },
+    {
+      "id": "tt_wed_2",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_cn",
+      "dayOfWeek": "WEDNESDAY",
+      "startTime": "10:15 AM",
+      "endTime": "11:15 AM",
+      "room": "LH-101",
+      "faculty": "Prof. Meera Nair"
+    },
+    {
+      "id": "tt_wed_3",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dsa",
+      "dayOfWeek": "WEDNESDAY",
+      "startTime": "11:30 AM",
+      "endTime": "12:30 PM",
+      "room": "LH-302",
+      "faculty": "Dr. Ramesh Rao"
+    },
+    {
+      "id": "tt_thu_1",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_os",
+      "dayOfWeek": "THURSDAY",
+      "startTime": "09:00 AM",
+      "endTime": "10:00 AM",
+      "room": "LH-302",
+      "faculty": "Prof. Ananya Sen"
+    },
+    {
+      "id": "tt_thu_2",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dsa",
+      "dayOfWeek": "THURSDAY",
+      "startTime": "10:15 AM",
+      "endTime": "11:15 AM",
+      "room": "LH-302",
+      "faculty": "Dr. Ramesh Rao"
+    },
+    {
+      "id": "tt_thu_3",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_dbms",
+      "dayOfWeek": "THURSDAY",
+      "startTime": "11:30 AM",
+      "endTime": "12:30 PM",
+      "room": "LH-204",
+      "faculty": "Dr. Vikram Seth"
+    },
+    {
+      "id": "tt_fri_1",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_cn",
+      "dayOfWeek": "FRIDAY",
+      "startTime": "09:00 AM",
+      "endTime": "10:00 AM",
+      "room": "LH-101",
+      "faculty": "Prof. Meera Nair"
+    },
+    {
+      "id": "tt_fri_2",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_ai",
+      "dayOfWeek": "FRIDAY",
+      "startTime": "10:15 AM",
+      "endTime": "11:15 AM",
+      "room": "LH-302",
+      "faculty": "Dr. Siddharth Joshi"
+    },
+    {
+      "id": "tt_fri_3",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_os",
+      "dayOfWeek": "FRIDAY",
+      "startTime": "11:30 AM",
+      "endTime": "12:30 PM",
+      "room": "LH-302",
+      "faculty": "Prof. Ananya Sen"
+    },
+    {
+      "id": "tt_sat_1",
+      "studentId": "std_darshan_01",
+      "subjectId": "sub_ai",
+      "dayOfWeek": "SATURDAY",
+      "startTime": "10:00 AM",
+      "endTime": "12:00 PM",
+      "room": "Seminar Hall B",
+      "faculty": "Dr. Siddharth Joshi"
+    }
+  ],
+  "specialSchedules": [
+    {
+      "id": "spec_01",
+      "studentId": "std_darshan_01",
+      "date": "2026-11-05",
+      "type": "EXTRA_CLASS",
+      "subjectId": "sub_os",
+      "startTime": "03:00 PM",
+      "endTime": "04:30 PM",
+      "room": "LH-302",
+      "reason": "Extra remedial session for Concurrency & Deadlocks",
+      "createdAt": "2026-11-01T16:05:44.250Z"
+    }
+  ]
+}

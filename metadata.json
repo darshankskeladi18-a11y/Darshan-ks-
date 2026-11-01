@@ -1,0 +1,6 @@
+{
+  "name": "AttendX - Smart Attendance & Bunk Tracker",
+  "description": "Smart college attendance tracker with bunk calculator, what-if attendance simulator, daily logging, subject-wise analytics, and semester reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
